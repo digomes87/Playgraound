@@ -92,3 +92,30 @@ doSomethingElseCool()
 doSomethingCool()
 MyFunction()
 print(returnSOmeThingCool())
+
+
+
+/*
+Enumerations
+Swift also has support for expressive enumerations. If you're unfamiliar, enumerations (or enums) are a dataype used to describe a fixed range of possible values. If you were describing the type of a car, such as a Sedan or SUV, these palues could be described using an enum.
+*/
+
+enum CarType {
+    case Sedan
+    case Sport
+}
+
+let myCarType = CarType.Sedan
+let mySecondCarType:  CarType = .Sport
+
+func describeCars(type: CarType){
+    switch(type){
+    case .Sedan:
+        print("car is a Sedan")
+    case .Sport:
+        print("TH")
+    }
+}
+
+
+
