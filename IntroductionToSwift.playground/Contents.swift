@@ -200,3 +200,68 @@ func countNumber(number: Int){
 }
 
 countNumber(1993)
+
+
+/*
+
+Example of if when have more that two validates var a = 2
+var b = 3
+var c = 2
+
+// your code here
+
+//if a == b {
+//    print("At two variables have the same value")
+//}else if b == c {
+//    print("At two variables have the same value")
+//}else{
+//    print("All the values are different")
+//}
+//
+if (a == b) || (a == c) || (b == c)  {
+print("At least two variables have the same value")
+}else {
+print("All the values are different")
+}
+*/
+var a = 2
+var b = 3
+var c = 2
+
+// your code here
+
+//if a == b {
+//    print("At two variables have the same value")
+//}else if b == c {
+//    print("At two variables have the same value")
+//}else{
+//    print("All the values are different")
+//}
+//
+
+// you can validate before intires in if
+if (a == b) || (a == c) || (b == c)  {
+    print("At least two variables have the same value")
+}else {
+    print("All the values are different")
+}
+
+/*
+    swift : type are inferred
+            functions are first class objects
+            collections are typed using generics
+            simpler string manipulation
+            switch statements do not require break statement
+*/
+
+//simple use of function
+
+func hi(){
+    print("hi")
+}
+
+hi()
+
+
+
+
